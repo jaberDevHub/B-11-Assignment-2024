@@ -130,3 +130,74 @@ body {
 }
 
 
+
+
+
+/* vision style */
+.vision-header{
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+}
+
+.vision-desc{
+    font-size: 16px;
+    opacity: 70%;
+    margin-bottom: 32px;
+    line-height: 24px;
+    
+}
+
+
+
+
+
+
+.vision-section{
+    display: flex;
+    gap: 24px;
+    width: 100%; 
+    
+}
+
+/* Vision Section */
+.vision-section {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    justify-content: space-between; 
+    height: 325px;
+    
+}
+
+/* Common styles for vision items */
+.vision-section > div {
+    padding: 32px;
+    border-radius: 8px;
+    flex: 1; 
+    box-sizing: border-box;
+    height: 100%; 
+}
+
+
+.vision-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.vision-description {
+    font-size: 16px;
+    line-height: 24px; 
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+
+.vision-button {
+    padding: 11px 20px; 
+    border: none;
+    border-radius: 4px;
+    color: white;
+    align-self: flex-start; 
+    margin-top: auto; 
+}
