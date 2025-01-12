@@ -2,11 +2,12 @@
 body {
     background-color: #F5F5F5;
     margin: 0; 
-    padding: 0; /
+    padding: 0; 
     
 }
 /* Universal margins */
 .container {
+    margin-top: 24px;
     margin-left: 160px;
     margin-right: 160px;
     font-family: 'Fira Sans', sans-serif;
@@ -21,8 +22,8 @@ body {
 }
 
 /* Title */
-.title {
-    font-size: 32px;
+.bangladesh-title{
+    font-size:32px;
     color: black;
 }
 
@@ -260,3 +261,94 @@ body {
 
 
 
+
+
+/* news */
+.news-card {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 48px;
+    background-color: #ffffff;
+    border: 1px ;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.news-image {
+    margin-right: 32px;
+    border: 15px;
+    border-radius: 24px;
+  
+}
+
+.satelite{
+    border: 1px;
+    border-radius: 24px;
+}
+
+.news-content{
+    
+}
+
+
+
+
+.news-content-title{
+    margin: auto;
+}
+
+.news-content h3 {
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+.aljazeera-logo { 
+    margin-bottom: px; 
+}
+
+.publication {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-bottom:100px;
+}
+
+.news-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.news-content button {
+    background-color: #006A50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+/* news title */
+.section-news-title {
+    margin-bottom: px; 
+}
+
+.section-news-title h3 {
+    font-size: 40px;
+    margin-bottom: 24px; 
+}
+
+.section-news-title p {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
