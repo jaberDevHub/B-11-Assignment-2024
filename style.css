@@ -90,3 +90,43 @@ body {
 }
 
 
+
+/* pilars section */
+
+.pilars-header{
+    font-size: 40px;
+
+
+
+}
+.section-pilars{
+    display: flex;
+    gap: 24px;
+    
+    
+    
+    
+}
+
+.pilars{
+    border-radius: 16px; 
+    background-color: #FFFFFF; 
+    border: 1px solid rgba(14, 14, 14, 0.15); 
+    padding: 24px 24px;
+    
+    
+    
+}
+
+.pilars-title{
+    font-size: 20px;
+}
+
+
+.pilars-description{
+    font-size: 16px;
+    opacity: 70%;
+    line-height: 24px;
+}
+
+
