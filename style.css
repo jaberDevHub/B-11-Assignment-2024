@@ -206,6 +206,8 @@ body {
 
 .visions-1 .vision-button {
     background-color: #5490F5;
+    
+    
 }
 
 /* Green Energy section */
@@ -356,8 +358,12 @@ body {
 /* button */
 
 /* Heading Style */
+
+.donate-container{
+    margin-top: 80px;
+}
 .donate-container h2 {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: auto;
     text-align: center;
 }
@@ -367,7 +373,7 @@ body {
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     line-height: 24px;
-    margin-bottom: 5;
+    margin-bottom: 24px;
     text-align: center;
 }
 
@@ -401,7 +407,7 @@ body {
 .donate-custom-amount {
     font-size: 20px;
     color: rgba(14, 14, 14, 0.3); 
-    width: 100%;
+    width: 90%;
     padding: 20px;
     margin-bottom: 32px;
     border: 1px solid #cccccc; 
@@ -414,9 +420,10 @@ body {
 .donate-button {
     background-color: #006A50;
     color: #ffffff;
-    border: none;
-    padding: 12px 24px;
+    border: 1px;
+    padding: 17px 34px;
     font-size: 18px;
+    font-weight:600;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -425,3 +432,16 @@ body {
 .donate-button:hover {
     background-color: #00513f;
 }
+
+
+
+.amount-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
