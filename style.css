@@ -416,7 +416,7 @@ body {
     text-align: center;
 }
 
-/* Donate Button */
+/* Donate Button Styles */
 .donate-button {
     background-color: #006A50;
     color: #ffffff;
@@ -443,5 +443,74 @@ body {
 }
 
 
+
+/* News Letter Styles */
+.newsletter-container {
+    background-color: #D6F2E1;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+    
+    
+
+
+
+
+.newsletter-container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.newsletter-container p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.newsletter-container form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.newsletter-container input[type="email"] {
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.newsletter-container button {
+    background-color: #006A50;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: semi-bold;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-container button:hover {
+    background-color: #00513f;
+}
+
+.newsletter-container .promise {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
 
