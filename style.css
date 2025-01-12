@@ -198,6 +198,65 @@ body {
     margin-top: auto; 
 }
 
+/* Digital Transformation section */
+.visions-1 {
+    background-color: rgba(84, 144, 245, 0.2); 
+}
+
+.visions-1 .vision-button {
+    background-color: #5490F5;
+}
+
+/* Green Energy section */
+.vision-2 {
+    background-color: #C6E4D6;
+}
+
+.vision-2 .vision-button {
+    background-color: #09A15C;
+}
+
+/* Modern Infrastructure section */
+.vision-3 {
+    background-color: #F7EBCF;
+}
+
+.vision-3 .vision-button {
+    background-color: #FFC239;
+}
+
+
+
+
+
+/* quote styles */
+
+.quote-container {
+    padding: 48px 24px; 
+    background-color: #F0F0F0;
+    border: 1px solid #ccc; 
+    margin-top: 32px; 
+}
+
+.quote {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px; 
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 600; 
+    line-height: 24px;
+    margin-top: 0px; 
+    margin-bottom: 4px; 
+}
+
+.title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px; 
+}
 
 
 
