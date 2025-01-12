@@ -197,3 +197,205 @@ body {
     align-self: flex-start; 
     margin-top: auto; 
 }
+
+
+
+
+/* quote styles */
+
+.quote-container {
+    padding: 48px 24px; 
+    background-color: #F0F0F0;
+    border: 1px solid #ccc; 
+    margin-top: 32px; 
+}
+
+.quote {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px; 
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 600; 
+    line-height: 24px;
+    margin-top: 0px; 
+    margin-bottom: 4px; 
+}
+
+.title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px; 
+}
+
+
+
+
+/* news */
+/* news */
+.news-card {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 48px;
+    background-color: #ffffff;
+    border: 1px ;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+
+.news-image {
+    margin-right: 32px;
+    border: 15px;
+    border-radius: 24px;
+  
+}
+
+.satelite{
+    border: 1px;
+    border-radius: 24px;
+}
+
+.news-content{
+    
+}
+
+
+
+
+.news-content-title{
+    margin: auto;
+}
+
+.news-content h3 {
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+.aljazeera-logo { 
+    margin-bottom: px; 
+}
+
+.publication {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-bottom:100px;
+}
+
+.news-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.news-content button {
+    background-color: #006A50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+/* news title */
+.section-news-title {
+    margin-bottom: px; 
+}
+
+.section-news-title h3 {
+    font-size: 40px;
+    margin-bottom: 24px; 
+}
+
+.section-news-title p {
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+
+
+
+
+/* button */
+
+/* Heading Style */
+.donate-container h2 {
+    font-size: 28px;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+/* Paragraph Style */
+.donate-container p {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+    margin-bottom: 5;
+    text-align: center;
+}
+
+/* Donation Options */
+.donate-options {
+    font-weight: bold;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.donate-option {
+    font-size: 40px;
+    padding: 40px 40px;
+    background-color: #FFFFFF;
+    color: rgba(14, 14, 14, 0.8); 
+    border-radius: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.donate-option:hover {
+    background-color: #C6E4D6;
+}
+
+/* Custom Amount Input */
+.donate-custom-amount {
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3); 
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 32px;
+    border: 1px solid #cccccc; 
+    border-radius: 8px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+/* Donate Button */
+.donate-button {
+    background-color: #006A50;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #00513f;
+}
