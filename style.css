@@ -1,15 +1,15 @@
-/* Set overall website background */
+/* overall website background */
 body {
     background-color: #F5F5F5;
-    margin: 0; /* Remove default margin to prevent unwanted spacing */
-    padding: 0; /* Remove default padding to prevent unwanted spacing */
-    font-family: 'Fira Sans', sans-serif; /* Ensure consistent font across the website */
+    margin: 0; 
+    padding: 0; /
+    
 }
-/* Universal Container for consistent margins */
+/* Universal margins */
 .container {
     margin-left: 160px;
     margin-right: 160px;
-    font-family: 'Fira Sans', sans-serif; /* Apply Fira Sans font to the entire container */
+    font-family: 'Fira Sans', sans-serif;
     
 }
 
@@ -17,7 +17,7 @@ body {
 .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Space between title and button */
+    justify-content: space-between; 
 }
 
 /* Title */
@@ -37,3 +37,56 @@ body {
     border: 1px solid #006A50;
     
 }
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 117px 60px 117px 60px;
+    text-align: left;
+
+}
+
+/* banner Section */
+.banner-content{
+    
+}
+
+/* banner Title */
+.banner-title {
+    color: #0E0E0E;
+    opacity: 50%;
+    font-size: 24px;
+    font-weight:700;
+    margin-bottom: 16px; 
+}
+
+/* banner Description */
+.banner-description {
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px; 
+    margin-top: 16px;
+}
+
+/* Secondary Button */
+.btn-second {
+    font-size: 18px;
+    font-family: Fira Sans;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border: none;
+}
+
+.banner-profile-pic{
+    /* margin: 0px 60px 0px 0px; */
+}
+
+
