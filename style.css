@@ -1,0 +1,39 @@
+/* Set overall website background */
+body {
+    background-color: #F5F5F5;
+    margin: 0; /* Remove default margin to prevent unwanted spacing */
+    padding: 0; /* Remove default padding to prevent unwanted spacing */
+    font-family: 'Fira Sans', sans-serif; /* Ensure consistent font across the website */
+}
+/* Universal Container for consistent margins */
+.container {
+    margin-left: 160px;
+    margin-right: 160px;
+    font-family: 'Fira Sans', sans-serif; /* Apply Fira Sans font to the entire container */
+    
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between title and button */
+}
+
+/* Title */
+.title {
+    font-size: 32px;
+    color: black;
+}
+
+/* Primary Button */
+.btn-primary {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 15px 30px;
+   
+    color: #006A50;
+    border: 1px solid #006A50;
+    
+}
