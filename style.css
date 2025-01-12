@@ -52,9 +52,6 @@ body {
 }
 
 /* banner Section */
-.banner-content{
-    
-}
 
 /* banner Title */
 .banner-title {
@@ -87,24 +84,16 @@ body {
 }
 
 
-
-
-
 /* pilars section */
-
 .pilars-header{
     font-size: 40px;
-
 
 
 }
 .section-pilars{
     display: flex;
     gap: 24px;
-    
-    
-    
-    
+
 }
 
 .pilars{
